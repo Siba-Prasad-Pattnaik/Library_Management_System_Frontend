@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(bg.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+}
+.content{
+    background: #000;
+    position:relative;
+    text-align: center;
+}
+h2{
+    color:white;
+}
+div.form{
+    width: 400px;
+    margin: 50px auto 30px auto;
+}
+#register{
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-size: 18px;
+}
